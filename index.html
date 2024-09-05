@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Profile Skeleton</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="skeleton-profile" role="status" aria-live="polite">
+        <div class="skeleton-avatar" aria-hidden="true"></div>
+        <div class="skeleton-info">
+          <div class="skeleton-name" aria-hidden="true"></div>
+          <div class="skeleton-detail" aria-hidden="true"></div>
+          <div class="skeleton-detail" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <section class="profile-content" style="display: none">
+        <img src="" alt="User Avatar" id="user-avatar" />
+        <h2 id="user-name"></h2>
+        <p id="user-bio"></p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
