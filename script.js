@@ -23,5 +23,5 @@ document.addEventListener("DOMContentLoaded", function () {
     // Hide the skeleton screen and display the profile content
     skeletonProfile.style.display = "none";
     profileContent.style.display = "flex";
-  }, 2000); // Simulate a 2-second delay for fetching data
+  }, 5000); // Simulate a 5-second delay for fetching data
 });
